@@ -37,6 +37,8 @@
 		7F1354911727F89E00AEA597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7F1354931727F89E00AEA597 /* UDTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UDTViewController.h; sourceTree = "<group>"; };
 		7F1354941727F89E00AEA597 /* UDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDTViewController.m; sourceTree = "<group>"; };
+		7F13549B1728289800AEA597 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7F13549C1728289800AEA597 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = 7F13546C1727F89D00AEA597;
 			productRefGroup = 7F1354761727F89D00AEA597 /* Products */;
@@ -187,6 +190,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7F1354821727F89D00AEA597 /* en */,
+				7F13549C1728289800AEA597 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -195,6 +199,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7F1354911727F89E00AEA597 /* en */,
+				7F13549B1728289800AEA597 /* ja */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UserDictionaryTest/UserDictionaryTest-Prefix.pch";
 				INFOPLIST_FILE = "UserDictionaryTest/UserDictionaryTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UserDictionaryTest/UserDictionaryTest-Prefix.pch";
 				INFOPLIST_FILE = "UserDictionaryTest/UserDictionaryTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

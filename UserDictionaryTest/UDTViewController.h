@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UDTViewController : UIViewController
+@interface UDTViewController : UIViewController <UITextFieldDelegate>
+@property (weak) IBOutlet UITextField *textField;
+@property (weak) IBOutlet UIButton *registerButton;
+
+- (IBAction)pressRegisterButton:(id)sender;
 
 @end
